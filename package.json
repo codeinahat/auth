@@ -1,0 +1,14 @@
+{
+  "name": "@codeinahat/auth",
+  "version": "0.0.0",
+  "description": "Authenthication & Authorization SERVER SIDE",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Richard Chapman Gomez",
+  "license": "SEE LICENSE IN LICENSE",
+  "devDependencies": {
+    "tsc": "^2.0.4"
+  }
+}
