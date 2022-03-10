@@ -1,4 +1,4 @@
-import { hashPassword} from './model/hashing';
+import { hashPassword} from './hashing';
 
 
 

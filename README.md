@@ -26,11 +26,13 @@ Calling core API features.
 ```
 
 ### Hashing password
-Thesse feature takes in an user password and an option hashing algorithm. If not algorithm is provided it will default to SHA256.
+Thesse feature takes in an user `password` an optional `salt`, and an optional `hashing algorithm`. If not algorithm is provided it will default to SHA256. If not salt is provided it will create one from random bytes.
+
+- Do not pass salt if you are creating a new hashed password. Unless you want to create your own salt.
+- There is not need to pass hashing algorithm if you want to use SHA256.
 
 ``` js
-    // DO NOT PASS SECOND ARGUMENT IF YOU WISH TO USE SHA256
-    const result = core.hashPassword('PASSWORD GOES HERE', 'OPTIONAL ALGORITHM GOES HERE')
+    const result = core.hashPassword('PASSWORD GOES HERE', 'OPTIONAL SALT GOES HERE','OPTIONAL ALGORITHM GOES HERE')
 
     console.log(result)
     /**
@@ -40,5 +42,6 @@ Thesse feature takes in an user password and an option hashing algorithm. If not
      *      hashed_passeword: 'HEX value of hashed password'
      * }
 ```
+
 
 
