@@ -2,6 +2,6 @@
  * 
  */
  export interface HashedPasswordResult {
-    hash_password: string;
+    hashed_password: string;
     salt: string;
 }

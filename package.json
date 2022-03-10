@@ -1,7 +1,7 @@
 {
   "name": "@codeinahat/auth",
-  "version": "0.0.0",
-  "description": "Authenthication & Authorization SERVER SIDE",
+  "version": "0.1.0",
+  "description": "These package helps cover some of the repetitive security measures when creating profile driven applications. Like password hashing and more",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
