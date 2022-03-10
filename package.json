@@ -1,6 +1,6 @@
 {
   "name": "@codeinahat/auth",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "These package helps cover some of the repetitive security measures when creating profile driven applications. Like password hashing and more",
   "main": "index.js",
   "scripts": {
@@ -13,5 +13,8 @@
   "devDependencies": {
     "@types/node": "^17.0.21",
     "tsc": "^2.0.4"
+  },
+  "repository": {
+    "url": "https://github.com/codeinahat/auth"
   }
 }
