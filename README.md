@@ -14,7 +14,7 @@ application security and proper sensitive information storing and processing.
 Installation is done using the [`npm install` command:](https://docs.npmjs.com/downloading-and-installing-packages-locally)
 
 ``` sh
-    $ npm install @codeinahat/auth
+$ npm install @codeinahat/auth
 ```
 
 
@@ -22,7 +22,7 @@ Installation is done using the [`npm install` command:](https://docs.npmjs.com/d
 
 Calling core API features.
 ``` js
-    const = require('@codeinahat/auth/core')
+const = require('@codeinahat/auth/core')
 ```
 
 ### Hashing password
@@ -32,7 +32,7 @@ Thesse feature takes in an user `password` an optional `salt`, and an optional `
 - There is not need to pass hashing algorithm if you want to use SHA256.
 
 ``` js
-    const result = core.hashPassword('PASSWORD GOES HERE', 'OPTIONAL SALT GOES HERE','OPTIONAL ALGORITHM GOES HERE')
+const result = core.hashPassword('PASSWORD GOES HERE', 'OPTIONAL SALT GOES HERE','OPTIONAL ALGORITHM GOES HERE')
 
     console.log(result)
     /**
