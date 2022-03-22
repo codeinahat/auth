@@ -1,4 +1,4 @@
-import { hashPassword} from './hashing';
+import { hashPassword } from './hashing';
 
 
 

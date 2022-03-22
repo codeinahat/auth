@@ -25,7 +25,7 @@ export function hashPassword (password: string, salt?: string, algo?: algos):  H
 
     return  {
         salt: outSalt,
-        // creates hash
+        // creates hash uses sha256 if not algoprithm provided
         hashed_password: createHash(algo || 'sha256').update(password + salt).digest('hex'),
     }
 }

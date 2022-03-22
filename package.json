@@ -16,5 +16,10 @@
   },
   "repository": {
     "url": "https://github.com/codeinahat/auth"
+  },
+  "dependencies": {
+    "@types/mssql": "^7.1.5",
+    "mongodb": "^4.4.1",
+    "mssql": "^8.0.2"
   }
 }

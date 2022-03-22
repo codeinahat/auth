@@ -22,7 +22,7 @@ $ npm install @codeinahat/auth
 
 Calling core API features.
 ``` js
-const = require('@codeinahat/auth/core')
+const = require('@codeinahat/auth')
 ```
 
 ### Hashing password
@@ -34,7 +34,7 @@ Thesse feature takes in an user `password` an optional `salt`, and an optional `
 ``` js
 const result = core.hashPassword('PASSWORD GOES HERE', 'OPTIONAL SALT GOES HERE','OPTIONAL ALGORITHM GOES HERE')
 
-    console.log(result)
+console.log(result)
     /**
      * WILL LOG
      * {
